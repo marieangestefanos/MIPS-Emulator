@@ -1,0 +1,16 @@
+load elf/exempleELF.o
+set reg $4 164
+set reg $19 2500
+set reg $6 6
+set mem 0x1000 word 0x933020
+set mem 0x1004 word 0x933020
+set reg PC 0x1000
+disp reg all
+
+break add 0x1004
+
+step
+step
+
+
+exit

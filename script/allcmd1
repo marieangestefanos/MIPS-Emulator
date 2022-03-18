@@ -1,0 +1,36 @@
+load elf/exempleELF.o
+
+
+disp reg $zero
+disp reg all
+disp reg $zero $t8
+
+
+disp mem 0x1000:0x1007
+disp mem 0x1000:0x300b
+disp mem 0x2000:0x2003 0x1002:0x1006 0x300a:0x300a
+
+break add 0x1002 0x1005
+break list
+break del 0x1002
+break list
+
+set reg $t1 45
+disp reg $t1
+
+set mem 0x2002 byte 0x56
+disp mem 0x2002:0x2003
+
+set mem 0x3002 word 0xAAFFBBDD
+disp mem 0x3002:0x3008
+
+
+set reg $v1 -3
+disp reg $v1
+assert word -3 $v1
+
+
+
+set mem 0x1002 word 0x01ABCDEF
+disp mem 0x1002:0x1007
+assert word 0x01ABCDEF 0x1002

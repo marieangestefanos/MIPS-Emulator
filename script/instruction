@@ -1,0 +1,8 @@
+load elf/exempleELF.o
+set reg $t1 1001
+set reg $t0 -1001
+disp reg all
+set mem 0x1000 word 0x7C085420
+disasm 0x1000:0x2000
+run 0x1000
+disp reg all

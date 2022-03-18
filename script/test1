@@ -1,0 +1,7 @@
+load elf/exempleELF.o
+set mem 0x1005 byte 63
+set mem 0x1007 byte 41
+assert byte 63 0x1005
+debug
+assert byte 41 0x1007
+exit

@@ -1,0 +1,6 @@
+.set noreorder    # ne pas modifier l'ordre des instructions ne fait meme pas des optimisations de boucle (les NOP sont mis de maniÃ¨re explicite)
+
+_start:
+.global _start
+
+add $t2,$zero,4

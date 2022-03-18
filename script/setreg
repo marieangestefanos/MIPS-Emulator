@@ -1,0 +1,8 @@
+load elf/exempleELF.o
+set reg $4 987654
+set reg $5 0x2560
+disp reg all
+
+debug
+
+exit

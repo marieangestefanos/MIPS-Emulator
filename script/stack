@@ -1,0 +1,37 @@
+load elf/exempleELF.o
+
+set mem 0xff7f000 byte 0x56
+
+set mem 0xff7f001 word 0xAAFFBBDD
+
+set mem 0x0fffeffa word 0xabcdef
+
+disp mem 0xff7f000:0xff7f009
+disp mem 0x0fffeffa:0x0fffefff
+
+
+
+load elf/boucle.o
+
+set mem 0xff7f000 byte 0x56
+
+set mem 0xff7f001 word 0xAAFFBBDD
+
+set mem 0x0fffeffa word 0xabcdef
+
+disp mem 0xff7f000:0xff7f009
+disp mem 0x0fffeffa:0x0fffefff
+
+
+load elf/reloc_miam.o
+
+set mem 0xff7f000 byte 0x56
+
+set mem 0xff7f001 word 0xAAFFBBDD
+
+set mem 0x0fffeffa word 0xabcdef
+
+disp mem 0xff7f000:0xff7f009
+disp mem 0x0fffeffa:0x0fffefff
+
+disp reg $sp

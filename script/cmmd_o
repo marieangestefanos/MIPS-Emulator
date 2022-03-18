@@ -1,0 +1,51 @@
+load elf/exempleELF.o
+disasm 0x1000:0x5000
+
+load elf/boucle.o
+disasm 0x1000:0x5000
+
+
+load elf/instructions/add_addu.o
+disasm 0x1000:0x5000
+
+load elf/instructions/addi_addiu.o
+disasm 0x1000:0x5000
+
+load elf/instructions/and_andi.o
+disasm 0x1000:0x5000
+
+load elf/instructions/decal.o
+disasm 0x1000:0x5000
+
+load elf/instructions/div_neg.o
+disasm 0x1000:0x5000
+
+load elf/instructions/div_pos.o
+disasm 0x1000:0x5000
+
+load elf/instructions/mult_neg.o
+disasm 0x1000:0x5000
+
+load elf/instructions/mult_pos.o
+disasm 0x1000:0x5000
+
+load elf/instructions/or_ori.o
+disasm 0x1000:0x5000
+
+load elf/instructions/slt.o
+disasm 0x1000:0x5000
+
+load elf/instructions/slti.o
+disasm 0x1000:0x5000
+
+load elf/instructions/sltiu.o
+disasm 0x1000:0x5000
+
+load elf/instructions/sltu.o
+disasm 0x1000:0x5000
+
+load elf/instructions/sub_subu.o
+disasm 0x1000:0x5000
+
+load elf/instructions/xor.o
+disasm 0x1000:0x5000

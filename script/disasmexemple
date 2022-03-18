@@ -1,0 +1,5 @@
+load elf/exempleELF.o
+disasm 0x1000:0x5000
+
+load elf/boucle.o
+disasm 0x1000:0x5000

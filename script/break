@@ -1,0 +1,15 @@
+load elf/exempleELF.o
+
+disp reg all
+disp mem 0x1000:0x1007
+
+break add 0x1002 0x1003 0x1004 0x1005
+break list
+break del 0x1002
+break list
+
+disp mem 0x1000:0x1007
+
+break del all
+break list
+exit
