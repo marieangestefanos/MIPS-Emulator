@@ -1,0 +1,7 @@
+#-------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Testing the 'disasm' interpreter command: standard behavior (hexa1:hexa2) but hexa1 isnt a hexa."
+#-------
+
+load elf/exempleELF.o
+disasm 12.5:0x5004

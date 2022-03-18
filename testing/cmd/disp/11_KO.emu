@@ -1,0 +1,6 @@
+-------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Testing the 'disp reg' interpreter command: a wrong register."
+#-------
+
+disp reg $vroom

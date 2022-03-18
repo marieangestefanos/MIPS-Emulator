@@ -1,0 +1,8 @@
+#-------
+#TEST_RETURN_CODE=PASS
+#TEST_COMMENT="Testing the 'break add' interpreter command: standard behavior with address which already exists (in .text)."
+#-------
+
+load elf/exempleELF.o
+break add 0x1002 0x1005 0x1007
+break add 0x1005

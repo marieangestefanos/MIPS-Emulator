@@ -1,0 +1,7 @@
+#-------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Testing the 'break del all' interpreter command: wrong input (too many arguments)."
+#-------
+
+load elf/exempleELF.o
+break del all luck

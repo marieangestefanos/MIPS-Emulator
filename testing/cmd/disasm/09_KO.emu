@@ -1,0 +1,7 @@
+#-------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Testing the 'disasm' interpreter command: the given arguments are wrong."
+#-------
+
+load elf/exempleELF.o
+disasm 0x5001:afrejg

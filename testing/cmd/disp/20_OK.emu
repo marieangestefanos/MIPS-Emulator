@@ -1,0 +1,7 @@
+#-------
+#TEST_RETURN_CODE=PASS
+#TEST_COMMENT="Testing the 'disp mem' interpreter command: argument hexa1 : hexa2 command, with hexa1 = hexa2."
+#-------
+
+load elf/exempleELF.o
+disp mem 0x1000:0x1000
