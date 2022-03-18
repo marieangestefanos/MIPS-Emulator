@@ -1,0 +1,7 @@
+#-------
+#TEST_RETURN_CODE=PASS
+#TEST_COMMENT="Testing the 'resume' interpreter command, standard behavior."
+#-------
+
+debug
+resume

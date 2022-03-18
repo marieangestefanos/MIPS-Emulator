@@ -1,0 +1,6 @@
+#----------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Test set mem using a wrong type, but correct address and value."
+#----------
+
+set mem 0x8000 foot 0xAAFFBBDD

@@ -1,0 +1,7 @@
+#----------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Test set mem using correct address, type and value but twice."
+#----------
+
+load elf/exempleELF.o
+set mem 0x3002 word 0xAAFFBBDD 0x3002 word 0xAAFFBBDD

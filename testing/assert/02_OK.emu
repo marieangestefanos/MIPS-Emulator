@@ -1,0 +1,8 @@
+#-------
+#TEST_RETURN_CODE=PASS
+#TEST_COMMENT="Testing the 'assert' interpreter command: standard behavior (word + value in address)."
+#-------
+
+load elf/exempleELF.o
+set mem 0x1002 word 0xF
+assert word 0xF 0x1002

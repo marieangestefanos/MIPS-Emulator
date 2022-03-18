@@ -1,0 +1,7 @@
+#-------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Testing the 'break add' interpreter command: wrong input (not a hexa)."
+#-------
+
+load elf/exempleELF.o
+break add 14.6

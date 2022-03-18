@@ -1,0 +1,6 @@
+#-------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Test loading a invalid ELF file."
+#-------
+
+load elf/exempleELF.txt

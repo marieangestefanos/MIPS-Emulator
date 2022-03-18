@@ -1,0 +1,7 @@
+#----------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Test set mem using correct register and value, but twice."
+#----------
+
+load elf/exempleELF.o
+set reg $t1 45 $t1 45

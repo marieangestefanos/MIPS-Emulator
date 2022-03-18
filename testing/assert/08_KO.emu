@@ -1,0 +1,6 @@
+#-------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Testing the 'assert' interpreter command: wrong input (more args)."
+#-------
+
+assert byte OxC 0x500c 32
