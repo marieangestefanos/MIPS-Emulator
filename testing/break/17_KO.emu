@@ -1,7 +1,0 @@
-#-------
-#TEST_RETURN_CODE=FAIL
-#TEST_COMMENT="Testing the 'break del' interpreter command: wrong input (too many arguments)."
-#-------
-
-load elf/exempleELF.o
-break del musiques

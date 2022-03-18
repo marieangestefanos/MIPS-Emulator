@@ -1,6 +1,0 @@
-#----------
-#TEST_RETURN_CODE=FAIL
-#TEST_COMMENT="Test set mem using a correct register and a wrong value."
-#----------
-
-set reg $t1 13.5

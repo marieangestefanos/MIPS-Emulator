@@ -1,7 +1,0 @@
-#-------
-#TEST_RETURN_CODE=PASS
-#TEST_COMMENT="Testing the 'disasm' interpreter command: standard behavior (hexa:hexa) and (hexa:hexa)."
-#-------
-
-load elf/exempleELF.o
-disasm 0x1000:0x1007 0x1001:0x1005

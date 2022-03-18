@@ -1,7 +1,0 @@
-#-------
-#TEST_RETURN_CODE=PASS
-#TEST_COMMENT="Testing the 'disp mem map' interpreter command, standard behavior."
-#-------
-
-load elf/exempleELF.o
-disp mem map

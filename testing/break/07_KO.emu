@@ -1,7 +1,0 @@
-#-------
-#TEST_RETURN_CODE=FAIL
-#TEST_COMMENT="Testing the 'break add' interpreter command: wrong input address not in .text."
-#-------
-
-load elf/exempleELF.o
-break add 0x5002

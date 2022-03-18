@@ -1,8 +1,0 @@
-#-------
-#TEST_RETURN_CODE=PASS
-#TEST_COMMENT="Testing the 'break del' interpreter command: standard behavior with addresses (in .text)."
-#-------
-
-load elf/exempleELF.o
-break add 0x1002 0x1005 0x1007
-break del 0x1002 0x1007

@@ -1,7 +1,0 @@
-#-------
-#TEST_RETURN_CODE=FAIL
-#TEST_COMMENT="Testing the 'disp mem' interpreter command: no argument."
-#-------
-
-load elf/exempleELF.o
-disp mem

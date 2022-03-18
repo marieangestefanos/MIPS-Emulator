@@ -1,6 +1,0 @@
-#-------
-#TEST_RETURN_CODE=FAIL
-#TEST_COMMENT="Testing the 'assert' interpreter command: wrong input (non int input as value)."
-#-------
-
-assert word 3.1 $v0

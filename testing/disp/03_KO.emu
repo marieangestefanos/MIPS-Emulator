@@ -1,7 +1,0 @@
-#-------
-#TEST_RETURN_CODE=FAIL
-#TEST_COMMENT="Testing the 'disp mem map' interpreter command, first address is not an hexa."
-#-------
-
-load elf/exempleELF.o
-disp mem 45:0x1002

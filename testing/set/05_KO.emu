@@ -1,6 +1,0 @@
-#----------
-#TEST_RETURN_CODE=FAIL
-#TEST_COMMENT="Test set mem using correct address, type and a wrong value."
-#----------
-
-set mem 0x8000 byte -14.5

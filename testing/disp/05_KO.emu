@@ -1,6 +1,0 @@
-#-------
-#TEST_RETURN_CODE=FAIL
-#TEST_COMMENT="Testing the 'disp mem' interpreter command: a wrong separator ."
-#-------
-
-disp mem 0xbee0-0xbeef
