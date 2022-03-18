@@ -1,0 +1,12 @@
+#-------
+#TEST_RETURN_CODE=FAIL
+#TEST_COMMENT="Testing the 'run' interpreter command: ERROR behavior (not an hexa for the address) for the R instruction ADD."
+#-------
+
+load elf/exempleELF.o
+set reg $4 164
+set reg $19 2500
+disp reg all
+set mem 0x1000 word 0x933020
+run 13.5
+disp reg all

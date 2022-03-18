@@ -1,0 +1,13 @@
+#-------
+#TEST_RETURN_CODE=PASS
+#TEST_COMMENT="Testing the 'run' interpreter command: standard behavior for the R instruction BREAK."
+#-------
+
+load elf/exempleELF.o
+set reg $3 5
+set reg $2 7
+disp reg all
+set mem 0x1000 word 0xD
+set mem 0x1004 word 0x624826
+run 0x1000
+disp reg all

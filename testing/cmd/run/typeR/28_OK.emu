@@ -1,0 +1,12 @@
+#-------
+#TEST_RETURN_CODE=PASS
+#TEST_COMMENT="Testing the 'run' interpreter command: standard behavior for the R instruction XOR (3)"
+#-------
+
+load elf/exempleELF.o
+set reg $3 7
+set reg $2 5
+disp reg all
+set mem 0x1000 word 0x624826
+run 0x1000
+disp reg all
